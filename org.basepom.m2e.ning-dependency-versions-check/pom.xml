@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>org.basepom.m2e.ning-dependency-versions-check</artifactId>
-  <packaging>bundle</packaging>
+  <packaging>eclipse-plugin</packaging>
 
   <name>m2e extension for Ning dependency-versions-check plugin</name>
   <description>

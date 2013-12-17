@@ -3,8 +3,8 @@
   <pluginExecutions>
     <pluginExecution>
       <pluginExecutionFilter>
-        <groupId>com.mycila</groupId>
-        <artifactId>license-maven-plugin</artifactId>
+        <groupId>com.ning.maven.plugins</groupId>
+        <artifactId>maven-dependency-versions-check-plugin</artifactId>
         <versionRange>[0,)</versionRange>
         <goals>
           <goal>check</goal>

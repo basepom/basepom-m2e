@@ -9,10 +9,10 @@
   </parent>
 
   <artifactId>org.basepom.m2e.mycila-license</artifactId>
-  <packaging>bundle</packaging>
-  <name>m2e extension for Maven mycila license plugin</name>
+  <packaging>eclipse-plugin</packaging>
+  <name>m2e extension for Maven Mycila license plugin</name>
 
   <description>
-    M2E Extension to ignore the mycila License plugin in Maven POM files.
+    M2E Extension to ignore the Mycila license plugin in Maven POM files.
   </description>
 </project>
