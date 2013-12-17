@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: m2e extension for Ning duplicate-finder plugin
 Bundle-SymbolicName: org.basepom.m2e.ning-duplicate-finder;singleton:=true
-Bundle-Version: 1.0.1
+Bundle-Version: 1.0.2.qualifier
 Bundle-Description: M2E Extension to ignore the Ning duplicate-finder pl
  ugin in Maven POM files.
 Bundle-DocURL: http://basepom.org/
