@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-    version="1.0.0"
+    version="1.0.1.qualifier"
     id="org.basepom.m2e.mycila-license.feature"
     label="m2e extension for Maven mycila license plugin"
     provider-name="Henning Schmiedehausen"
@@ -22,7 +22,7 @@
       id="org.basepom.m2e.mycila-license"
       download-size="0"
       install-size="0"
-      version="1.0.0"
+      version="1.0.1.qualifier"
       unpack="false"/>
 
 </feature>
