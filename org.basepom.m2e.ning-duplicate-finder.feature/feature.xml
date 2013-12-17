@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+    version="1.0.0.qualifier"
+    id="org.basepom.m2e.ning-duplicate-finder.feature"
+    label="m2e extension for Maven ning duplicate-finder plugin"
+    provider-name="Henning Schmiedehausen"
+    plugin="org.basepom.m2e.ning-duplicate-finder">
+
+  <description>
+    M2E Extension to ignore the Ning duplicate-finder plugin in Maven POM files.
+  </description>
+
+  <copyright>
+    Copyright (C) 2013 Henning Schmiedehausen
+  </copyright>
+
+  <license url="http://www.apache.org/licenses/LICENSE-2.0.html">
+    %license.text
+  </license>
+
+  <plugin
+      id="org.basepom.m2e.ning-duplicate-finder"
+      download-size="0"
+      install-size="0"
+      version="0.0.0"
+      unpack="false"/>
+
+</feature>
