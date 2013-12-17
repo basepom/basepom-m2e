@@ -3,7 +3,7 @@
     version="1.0.2.qualifier"
     id="org.basepom.m2e.mycila-license.feature"
     label="m2e extension for Maven mycila license plugin"
-    provider-name="Henning Schmiedehausen"
+    provider-name="basepom.org"
     plugin="org.basepom.m2e.mycila-license">
 
   <description>
@@ -11,7 +11,7 @@
   </description>
 
   <copyright>
-    Copyright (C) 2013 Henning Schmiedehausen
+    Copyright (C) 2013 basepom.org
   </copyright>
 
   <license url="http://www.apache.org/licenses/LICENSE-2.0.html">

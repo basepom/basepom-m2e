@@ -38,6 +38,13 @@
     <url>http://basepom.org/</url>
   </organization>
 
+  <developers>
+    <developer>
+      <id>hgschmie</id>
+      <name>Henning Schmiedehausen</name>
+    </developer>
+  </developers>
+
   <repositories>
     <repository>
       <id>eclipse</id>
