@@ -15,3 +15,8 @@ discovered through the m2e catalog and installed in Eclipse to get rid
 of the build errors.
 
 These m2e extensions only disable the plugins for Eclipse.
+
+- org.basepom Property Helper plugin (https://github.com/basepom/property-helper-maven-plugin)
+
+which can be used in any stage but is most useful in "validate". The 'get' goal of this plugin will
+be executed by Eclipse, the 'inc' goal is ignored .

@@ -8,14 +8,11 @@
         <version>1.0.2-SNAPSHOT</version>
     </parent>
 
-    <artifactId>org.basepom.m2e.mycila-license.feature</artifactId>
-    <packaging>eclipse-feature</packaging>
+    <artifactId>org.basepom.m2e.property-helper</artifactId>
+    <packaging>eclipse-plugin</packaging>
+    <name>m2e extension for org.basepom property-helper plugin.</name>
 
-    <dependencies>
-	    <dependency>
-            <groupId>org.basepom.m2e</groupId>
-            <artifactId>org.basepom.m2e.mycila-license</artifactId>
-            <type>pom</type>
-	    </dependency>
-    </dependencies>
+    <description>
+        M2E Extension for the org.basepom property-helper plugin.
+    </description>
 </project>

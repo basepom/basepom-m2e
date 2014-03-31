@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>org.basepom.m2e</groupId>
-    <artifactId>basepom-m2e-root</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
-  </parent>
+    <parent>
+        <groupId>org.basepom.m2e</groupId>
+        <artifactId>basepom-m2e-root</artifactId>
+        <version>1.0.2-SNAPSHOT</version>
+    </parent>
 
-  <artifactId>org.basepom.m2e.mycila-license</artifactId>
-  <packaging>eclipse-plugin</packaging>
-  <name>m2e extension for Maven Mycila license plugin</name>
+    <artifactId>org.basepom.m2e.mycila-license</artifactId>
+    <packaging>eclipse-plugin</packaging>
+    <name>m2e extension for Maven Mycila license plugin</name>
 
-  <description>
-    M2E Extension to ignore the Mycila license plugin in Maven POM files.
-  </description>
+    <description>
+        M2E Extension to ignore the Mycila license plugin in Maven POM files.
+    </description>
 </project>

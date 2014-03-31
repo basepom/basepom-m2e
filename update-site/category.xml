@@ -11,4 +11,7 @@
    <feature id="org.basepom.m2e.ning-dependency-versions-check.feature">
       <category name="basepom-m2e"/>
    </feature>
+   <feature id="org.basepom.m2e.property-helper.feature">
+      <category name="basepom-m2e"/>
+   </feature>
 </site>

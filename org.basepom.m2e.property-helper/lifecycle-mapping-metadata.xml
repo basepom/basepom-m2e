@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lifecycleMappingMetadata>
+    <pluginExecutions>
+        <pluginExecution>
+            <pluginExecutionFilter>
+                <groupId>org.basepom.maven</groupId>
+                <artifactId>property-helper-maven-plugin</artifactId>
+                <versionRange>[0,)</versionRange>
+                <goals>
+                    <goal>get</goal>
+                </goals>
+            </pluginExecutionFilter>
+            <action>
+                <execute>
+                    <runOnIncremental>true</runOnIncremental>
+                </execute>
+            </action>
+        </pluginExecution>
+        <pluginExecution>
+            <pluginExecutionFilter>
+                <groupId>org.basepom.maven</groupId>
+                <artifactId>property-helper-maven-plugin</artifactId>
+                <versionRange>[0,)</versionRange>
+                <goals>
+                    <goal>inc</goal>
+                </goals>
+            </pluginExecutionFilter>
+            <action>
+                <ignore />
+            </action>
+        </pluginExecution>
+    </pluginExecutions>
+</lifecycleMappingMetadata>
