@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: M2E Extension for the org.basepom property-helper plugin.
 Bundle-SymbolicName: org.basepom.m2e.property-helper;singleton:=true
-Bundle-Version: 1.0.2
+Bundle-Version: 1.0.3.qualifier
 Bundle-Description: M2E Extension for the org.basepom property-helper pl
  ugin in Maven POM files.
 Bundle-DocURL: http://basepom.org/
