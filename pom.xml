@@ -59,6 +59,8 @@
     </repositories>
 
     <modules>
+        <module>org.basepom.m2e.duplicate-finder</module>
+        <module>org.basepom.m2e.duplicate-finder.feature</module>
         <module>org.basepom.m2e.mycila-license</module>
         <module>org.basepom.m2e.mycila-license.feature</module>
         <module>org.basepom.m2e.ning-duplicate-finder</module>
@@ -72,6 +74,20 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.basepom.m2e</groupId>
+                <artifactId>org.basepom.m2e.duplicate-finder</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.basepom.m2e</groupId>
+                <artifactId>org.basepom.m2e.duplicate-finder.feature</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+
             <dependency>
                 <groupId>org.basepom.m2e</groupId>
                 <artifactId>org.basepom.m2e.mycila-license</artifactId>

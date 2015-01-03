@@ -14,6 +14,12 @@
     <dependencies>
 	    <dependency>
             <groupId>org.basepom.m2e</groupId>
+            <artifactId>org.basepom.m2e.duplicate-finder.feature</artifactId>
+            <type>pom</type>
+	    </dependency>
+
+	    <dependency>
+            <groupId>org.basepom.m2e</groupId>
             <artifactId>org.basepom.m2e.mycila-license.feature</artifactId>
             <type>pom</type>
 	    </dependency>
