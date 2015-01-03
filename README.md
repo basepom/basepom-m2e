@@ -9,6 +9,7 @@ This project contains m2e extensions for
 - Mycila license plugin (http://code.mycila.com/license-maven-plugin/)
 - Ning duplicate finder plugin (https://github.com/ning/maven-duplicate-finder-plugin)
 - Ning dependency versions check plugin (https://github.com/ning/maven-dependency-versions-check-plugin)
+- org.basepom duplicate finder plugin (https://github.com/basepom/duplicate-finder-maven-plugin)
 
 which can be used in the "verify" stage. All m2e extensions can be
 discovered through the m2e catalog and installed in Eclipse to get rid
