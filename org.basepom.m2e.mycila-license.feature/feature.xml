@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-    version="1.0.4.qualifier"
+    version="1.0.4"
     id="org.basepom.m2e.mycila-license.feature"
     label="m2e extension for Maven mycila license plugin"
     provider-name="basepom.org"
