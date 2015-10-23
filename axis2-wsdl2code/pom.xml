@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.basepom.m2e</groupId>
+        <artifactId>basepom-m2e-root</artifactId>
+        <version>1.0.5-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>org.basepom.m2e.apache-axis2-wsdl2code</artifactId>
+    <packaging>eclipse-plugin</packaging>
+    <name>m2e extension for Apache axis2-wsdl2code plugin</name>
+
+    <description>
+        M2E Extension to ignore the Apache axis2-wsdl2code plugin in Maven POM files.
+    </description>
+</project>

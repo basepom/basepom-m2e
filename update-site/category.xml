@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <category-def name="basepom-m2e" label="M2E extension support for basepom.org"/>
-   
+   <category-def name="basepom-m2e" label="M2E extension support for basepom.org plugins"/>
+
    <feature id="org.basepom.m2e.duplicate-finder.feature">
       <category name="basepom-m2e"/>
    </feature>
@@ -15,6 +15,9 @@
       <category name="basepom-m2e"/>
    </feature>
    <feature id="org.basepom.m2e.property-helper.feature">
+      <category name="basepom-m2e"/>
+   </feature>
+   <feature id="org.basepom.m2e.apache-axis2-wsdl2code">
       <category name="basepom-m2e"/>
    </feature>
 </site>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+    version="1.0.5.qualifier"
+    id="org.basepom.m2e.apache-axis2-wsdl2code.feature"
+    label="m2e extension for Maven Apache axis2 wsdl2code plugin"
+    provider-name="basepom.org"
+    plugin="org.basepom.m2e.apache-axis2-wsdl2code">
+
+  <description>
+    M2E Extension to ignore the Apache axis2 wsdl2code plugin in Maven POM files.
+  </description>
+
+  <copyright>
+    Copyright (C) 2015 basepom.org
+  </copyright>
+
+  <license url="http://www.apache.org/licenses/LICENSE-2.0.html">
+    %license.text
+  </license>
+
+  <plugin
+      id="org.basepom.m2e.apache-axis2-wsdl2code"
+      download-size="0"
+      install-size="0"
+      version="0.0.0"
+      unpack="false"/>
+
+</feature>
