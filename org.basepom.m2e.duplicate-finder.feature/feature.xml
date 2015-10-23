@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-    version="1.0.6.qualifier"
+    version="1.0.6"
     id="org.basepom.m2e.duplicate-finder.feature"
     label="m2e extension for Maven duplicate-finder plugin"
     provider-name="basepom.org"
