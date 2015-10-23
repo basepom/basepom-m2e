@@ -17,7 +17,7 @@
    <feature id="org.basepom.m2e.property-helper.feature">
       <category name="basepom-m2e"/>
    </feature>
-   <feature id="org.basepom.m2e.apache-axis2-wsdl2code">
+   <feature id="org.basepom.m2e.apache-axis2-wsdl2code.feature">
       <category name="basepom-m2e"/>
    </feature>
 </site>
