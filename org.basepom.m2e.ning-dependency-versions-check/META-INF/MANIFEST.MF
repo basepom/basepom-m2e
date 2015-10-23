@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: m2e extension for Ning dependency-versions-check plugin
 Bundle-SymbolicName: org.basepom.m2e.ning-dependency-versions-check;singleton:=true
-Bundle-Version: 1.0.5.qualifier
+Bundle-Version: 1.0.5
 Bundle-Description: M2E Extension to ignore the Ning dependency-versions
  -check plugin in Maven POM files.
 Bundle-DocURL: http://basepom.org/
