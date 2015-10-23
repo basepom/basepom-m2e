@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-    version="1.0.6"
+    version="1.0.7.qualifier"
     id="org.basepom.m2e.apache-axis2-wsdl2code.feature"
     label="m2e extension for Maven Apache axis2 wsdl2code plugin"
     provider-name="basepom.org"

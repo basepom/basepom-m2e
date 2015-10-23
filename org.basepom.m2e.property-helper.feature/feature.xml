@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-    version="1.0.6"
+    version="1.0.7.qualifier"
     id="org.basepom.m2e.property-helper.feature"
     label="m2e extension for Maven org.basepom property-helper plugin"
     provider-name="basepom.org"
