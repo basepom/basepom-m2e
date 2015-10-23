@@ -18,7 +18,7 @@
 
 Close and release the oss release repository.
 
-- update the OSIg version to match the new development version
+- update the OSGi version to match the new development version
 
 ```bash
 % export RELEASE=<release version> SNAPSHOT=<snapshot version>;  find . -name MANIFEST.MF -o -name feature.xml | xargs perl -pi -e "s|${RELEASE}|${SNAPSHOT}.qualifier|"

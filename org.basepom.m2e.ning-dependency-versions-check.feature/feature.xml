@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-    version="1.0.5"
+    version="1.0.6.qualifier"
     id="org.basepom.m2e.ning-dependency-versions-check.feature"
     label="m2e extension for Maven ning dependency-versions-check plugin"
     provider-name="basepom.org"
