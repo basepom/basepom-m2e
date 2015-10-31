@@ -2,7 +2,7 @@
 <feature
       id="org.basepom.m2e.mycila_license.feature"
       label="m2e extension for the Mycila license plugin."
-      version="1.0.7.qualifier"
+      version="1.1.0"
       provider-name="basepom.org"
       plugin="org.basepom.m2e.mycila-license">
 

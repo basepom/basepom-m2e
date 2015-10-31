@@ -2,7 +2,7 @@
 <feature
       id="org.basepom.m2e.property_helper.feature"
       label="m2e extension for the org.basepom property-helper plugin."
-      version="1.0.7.qualifier"
+      version="1.1.0"
       provider-name="basepom.org"
       plugin="org.basepom.m2e.property-helper">
 

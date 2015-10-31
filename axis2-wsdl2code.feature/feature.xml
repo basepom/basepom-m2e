@@ -2,7 +2,7 @@
 <feature
       id="org.basepom.m2e.apache_axis2_wsdl2code.feature"
       label="m2e extension for the Apache axis2-wsdl2code plugin."
-      version="1.0.7.qualifier"
+      version="1.1.0"
       provider-name="basepom.org"
       plugin="org.basepom.m2e.apache-axis2-wsdl2code">
 

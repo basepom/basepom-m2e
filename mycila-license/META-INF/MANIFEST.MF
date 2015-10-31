@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: m2e extension for the Mycila license plugin.
 Bundle-SymbolicName: org.basepom.m2e.mycila-license;singleton:=true
-Bundle-Version: 1.0.7.qualifier
+Bundle-Version: 1.1.0
 Bundle-Description: M2E Extension to ignore the Mycila license plugin.
 Bundle-DocURL: http://basepom.org/
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
