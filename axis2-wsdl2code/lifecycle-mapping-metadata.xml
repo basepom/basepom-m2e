@@ -10,9 +10,11 @@
           <goal>wsdl2code</goal>
         </goals>
       </pluginExecutionFilter>
-      <action>
-        <ignore />
-      </action>
+	  <action>
+		<configurator>
+		  <id>org.basepom.m2e.axis2.Axis2WSDL2CodeProjectConfigurator</id>
+		</configurator>
+	  </action>
     </pluginExecution>
   </pluginExecutions>
 </lifecycleMappingMetadata>

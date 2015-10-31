@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
    <category-def name="basepom-m2e" label="M2E extension support for basepom.org plugins"/>
+   <category-def name="axis-m2e" label="M2E extension support for axis2 wsdl2code plugin"/>
 
    <feature id="org.basepom.m2e.duplicate-finder.feature">
       <category name="basepom-m2e"/>
@@ -18,6 +19,6 @@
       <category name="basepom-m2e"/>
    </feature>
    <feature id="org.basepom.m2e.apache-axis2-wsdl2code.feature">
-      <category name="basepom-m2e"/>
+      <category name="axis-m2e"/>
    </feature>
 </site>
