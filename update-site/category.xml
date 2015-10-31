@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <category-def name="basepom-m2e" label="M2E extension support for basepom.org plugins"/>
-   <category-def name="axis-m2e" label="M2E extension support for axis2 wsdl2code plugin"/>
+   <category-def name="basepom-m2e" label="m2e extension support for basepom.org referenced plugins."/>
+   <category-def name="axis-m2e" label="m2e extension support for the Apache axis2-wsdl2code plugin."/>
 
    <feature id="org.basepom.m2e.duplicate_finder.feature">
       <category name="basepom-m2e"/>
