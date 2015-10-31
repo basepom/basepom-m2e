@@ -34,7 +34,7 @@ Close and release the oss release repository.
 % cd update-site
 % mkdir $RELEASE
 % cd $RELEASE
-% unzip ../../target/update-site-$RELEASE.zip
+% unzip ../target/update-site-$RELEASE.zip
 % cd ..
 % rm -rf latest ; cp -av $RELEASE latest
 % git add $RELEASE latest
