@@ -8,7 +8,7 @@
         <version>1.0.7-SNAPSHOT</version>
     </parent>
 
-    <artifactId>org.basepom.m2e.apache-axis2-wsdl2code.feature</artifactId>
+    <artifactId>org.basepom.m2e.apache_axis2_wsdl2code.feature</artifactId>
     <packaging>eclipse-feature</packaging>
 
     <dependencies>

@@ -3,22 +3,22 @@
    <category-def name="basepom-m2e" label="M2E extension support for basepom.org plugins"/>
    <category-def name="axis-m2e" label="M2E extension support for axis2 wsdl2code plugin"/>
 
-   <feature id="org.basepom.m2e.duplicate-finder.feature">
+   <feature id="org.basepom.m2e.duplicate_finder.feature">
       <category name="basepom-m2e"/>
    </feature>
-   <feature id="org.basepom.m2e.mycila-license.feature">
+   <feature id="org.basepom.m2e.mycila_license.feature">
       <category name="basepom-m2e"/>
    </feature>
-   <feature id="org.basepom.m2e.ning-duplicate-finder.feature">
+   <feature id="org.basepom.m2e.ning_duplicate_finder.feature">
       <category name="basepom-m2e"/>
    </feature>
-   <feature id="org.basepom.m2e.ning-dependency-versions-check.feature">
+   <feature id="org.basepom.m2e.ning_dependency_versions_check.feature">
       <category name="basepom-m2e"/>
    </feature>
-   <feature id="org.basepom.m2e.property-helper.feature">
+   <feature id="org.basepom.m2e.property_helper.feature">
       <category name="basepom-m2e"/>
    </feature>
-   <feature id="org.basepom.m2e.apache-axis2-wsdl2code.feature">
+   <feature id="org.basepom.m2e.apache_axis2_wsdl2code.feature">
       <category name="axis-m2e"/>
    </feature>
 </site>

@@ -60,18 +60,18 @@
     </repositories>
 
     <modules>
-        <module>axis2-wsdl2code</module>
         <module>axis2-wsdl2code.feature</module>
-        <module>org.basepom.m2e.duplicate-finder</module>
-        <module>org.basepom.m2e.duplicate-finder.feature</module>
-        <module>org.basepom.m2e.mycila-license</module>
-        <module>org.basepom.m2e.mycila-license.feature</module>
-        <module>org.basepom.m2e.ning-duplicate-finder</module>
-        <module>org.basepom.m2e.ning-duplicate-finder.feature</module>
-        <module>org.basepom.m2e.ning-dependency-versions-check</module>
-        <module>org.basepom.m2e.ning-dependency-versions-check.feature</module>
-        <module>org.basepom.m2e.property-helper</module>
-        <module>org.basepom.m2e.property-helper.feature</module>
+        <module>axis2-wsdl2code</module>
+        <module>duplicate-finder.feature</module>
+        <module>duplicate-finder</module>
+        <module>mycila-license.feature</module>
+        <module>mycila-license</module>
+        <module>ning-dependency-versions-check.feature</module>
+        <module>ning-dependency-versions-check</module>
+        <module>ning-duplicate-finder.feature</module>
+        <module>ning-duplicate-finder</module>
+        <module>property-helper.feature</module>
+        <module>property-helper</module>
         <module>update-site</module>
     </modules>
 
