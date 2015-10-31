@@ -46,19 +46,22 @@
     </developers>
 
     <repositories>
-        <repository>
-            <id>eclipse</id>
-            <url>http://download.eclipse.org/releases/juno</url>
-            <layout>p2</layout>
-        </repository>
-        <repository>
-            <id>m2e</id>
-            <url>http://download.eclipse.org/technology/m2e/releases/1.1</url>
-            <layout>p2</layout>
-        </repository>
+		<repository>
+			<id>kepler</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/releases/kepler</url>
+		</repository>
+
+		<repository>
+			<id>m2e-wtp</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/m2e-wtp/releases/kepler/1.0.0/</url>
+		</repository>
     </repositories>
 
     <modules>
+        <module>axis2-wsdl2code</module>
+        <module>axis2-wsdl2code.feature</module>
         <module>org.basepom.m2e.duplicate-finder</module>
         <module>org.basepom.m2e.duplicate-finder.feature</module>
         <module>org.basepom.m2e.mycila-license</module>
@@ -69,8 +72,6 @@
         <module>org.basepom.m2e.ning-dependency-versions-check.feature</module>
         <module>org.basepom.m2e.property-helper</module>
         <module>org.basepom.m2e.property-helper.feature</module>
-        <module>axis2-wsdl2code</module>
-        <module>axis2-wsdl2code.feature</module>
         <module>update-site</module>
     </modules>
 
@@ -170,6 +171,11 @@
                     <artifactId>tycho-maven-plugin</artifactId>
                     <version>${dep.plugin.tycho.version}</version>
                 </plugin>
+			    <plugin>
+				    <groupId>org.eclipse.tycho</groupId>
+				    <artifactId>target-platform-configuration</artifactId>
+                    <version>${dep.plugin.tycho.version}</version>
+                </plugin>
             </plugins>
         </pluginManagement>
         <plugins>
@@ -178,6 +184,14 @@
                 <artifactId>tycho-maven-plugin</artifactId>
                 <extensions>true</extensions>
             </plugin>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<configuration>
+					<resolver>p2</resolver>
+					<ignoreTychoRepositories>false</ignoreTychoRepositories>
+				</configuration>
+			</plugin>
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>

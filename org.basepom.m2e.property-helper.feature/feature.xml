@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-    version="1.0.7.qualifier"
-    id="org.basepom.m2e.property-helper.feature"
-    label="m2e extension for Maven org.basepom property-helper plugin"
-    provider-name="basepom.org"
-    plugin="org.basepom.m2e.property-helper">
+      id="org.basepom.m2e.property_helper.feature"
+      label="m2e extension for the org.basepom property-helper plugin."
+      version="1.0.7.qualifier"
+      provider-name="basepom.org"
+      plugin="org.basepom.m2e.property-helper">
 
-  <description>
-    M2E Extension for the org.basepom property-helper plugin in Maven POM files.
-  </description>
+   <description>
+      M2E Extension for the org.basepom property-helper plugin.
+   </description>
 
-  <copyright>
-    Copyright (C) 2014 basepom.org
-  </copyright>
+   <copyright>
+      Copyright (C) 2014 basepom.org
+   </copyright>
 
-  <license url="http://www.apache.org/licenses/LICENSE-2.0.html">
-    %license.text
-  </license>
+   <license url="http://www.apache.org/licenses/LICENSE-2.0.html">
+      %license.text
+   </license>
 
-  <plugin
-      id="org.basepom.m2e.property-helper"
-      download-size="0"
-      install-size="0"
-      version="0.0.0"
-      unpack="false"/>
+   <plugin
+         id="org.basepom.m2e.property-helper"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>

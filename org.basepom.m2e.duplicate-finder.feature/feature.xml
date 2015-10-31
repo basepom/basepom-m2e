@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-    version="1.0.7.qualifier"
-    id="org.basepom.m2e.duplicate-finder.feature"
-    label="m2e extension for Maven duplicate-finder plugin"
-    provider-name="basepom.org"
-    plugin="org.basepom.m2e.duplicate-finder">
+      id="org.basepom.m2e.duplicate_finder.feature"
+      label="m2e extension for the org.basepom duplicate-finder plugin."
+      version="1.0.7.qualifier"
+      provider-name="basepom.org"
+      plugin="org.basepom.m2e.duplicate-finder">
 
-  <description>
-    M2E Extension to ignore the duplicate-finder plugin in Maven POM files.
-  </description>
+   <description>
+      M2E extension to ignore the org.basepom duplicate-finder plugin.
+   </description>
 
-  <copyright>
-    Copyright (C) 2013 basepom.org
-  </copyright>
+   <copyright>
+      Copyright (C) 2013 basepom.org
+   </copyright>
 
-  <license url="http://www.apache.org/licenses/LICENSE-2.0.html">
-    %license.text
-  </license>
+   <license url="http://www.apache.org/licenses/LICENSE-2.0.html">
+      %license.text
+   </license>
 
-  <plugin
-      id="org.basepom.m2e.duplicate-finder"
-      download-size="0"
-      install-size="0"
-      version="0.0.0"
-      unpack="false"/>
+   <plugin
+         id="org.basepom.m2e.duplicate-finder"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>

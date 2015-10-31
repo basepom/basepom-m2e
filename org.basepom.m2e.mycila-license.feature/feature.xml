@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-    version="1.0.7.qualifier"
-    id="org.basepom.m2e.mycila-license.feature"
-    label="m2e extension for Maven mycila license plugin"
-    provider-name="basepom.org"
-    plugin="org.basepom.m2e.mycila-license">
+      id="org.basepom.m2e.mycila_license.feature"
+      label="m2e extension for the Mycila license plugin."
+      version="1.0.7.qualifier"
+      provider-name="basepom.org"
+      plugin="org.basepom.m2e.mycila-license">
 
-  <description>
-    M2E Extension to ignore the Mycila license plugin in Maven POM files.
-  </description>
+   <description>
+      M2E extension to ignore the Mycila license plugin.
+   </description>
 
-  <copyright>
-    Copyright (C) 2013 basepom.org
-  </copyright>
+   <copyright>
+      Copyright (C) 2013 basepom.org
+   </copyright>
 
-  <license url="http://www.apache.org/licenses/LICENSE-2.0.html">
-    %license.text
-  </license>
+   <license url="http://www.apache.org/licenses/LICENSE-2.0.html">
+      %license.text
+   </license>
 
-  <plugin
-      id="org.basepom.m2e.mycila-license"
-      download-size="0"
-      install-size="0"
-      version="0.0.0"
-      unpack="false"/>
+   <plugin
+         id="org.basepom.m2e.mycila-license"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>
